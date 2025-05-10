@@ -22,11 +22,12 @@ export default function Home() {
         radius_mean: parseFloat(radiusMean),
       });
 
-
+      
       const result = response.data.result;
       alert(`Prediction Result: ${result}`);
-      
+      setError("");
     } catch (err) {
+      console.error("Prediction fetch error:", err); // Now 'err' is used
       const message = "An error occurred while fetching prediction. Please try again.";
       setError(message);
       alert(`Error: ${message}`);
