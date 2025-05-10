@@ -56,6 +56,7 @@ export default function HeroSection() {
                                 <TransParentButton onClick={()=>{
                                         router.push("/detect")
                                     }}>
+                                        
                                         Learn More
                                 </TransParentButton>
                             </div>

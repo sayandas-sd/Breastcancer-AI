@@ -9,6 +9,7 @@ export default function Button({
 }) {
     return(
         <div className={`bg-pink-600 hover:bg-pink-700 cursor-pointer text-white text-sm font-semibold py-3 px-6 rounded-md`} onClick={onClick}>
+            
             {children}
             
         </div>

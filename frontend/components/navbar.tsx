@@ -36,9 +36,6 @@ export default function Navbar() {
             
           </div>
         </Link>
-
-      
-
       <button
           onClick={toggle}
           type="button"

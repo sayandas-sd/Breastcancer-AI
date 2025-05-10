@@ -51,6 +51,7 @@ export default function MainBody() {
                     <div className="mt-4 text-pink-500 text-sm font-semibold hover:underline underline-offset-4">
                         Learn More
                     </div>
+                    
                   </Link>        
                 </div>
               </div>

@@ -9,7 +9,6 @@ export default function CardContent({
         <div className="p-6 border border-gray-200 rounded-md items-center text-gray-500 font-medium">
             
             {children} 
-
         </div>
     )
 }

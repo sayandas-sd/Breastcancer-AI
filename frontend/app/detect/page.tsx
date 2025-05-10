@@ -16,11 +16,13 @@ export default function Home() {
         return;
       }
 
+
       const response = await axios.post("http://localhost:8000/predict", {
         texture_mean: parseFloat(textureMean),
         radius_mean: parseFloat(radiusMean),
       });
 
+      
       const result = response.data.result;
       alert(`Prediction Result: ${result}`);
       setError("");

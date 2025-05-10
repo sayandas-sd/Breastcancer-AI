@@ -71,6 +71,7 @@ export default function Footer() {
       <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025  <Link href="https://flowbite.com/" className="hover:underline">BreastCare AI</Link>. All Rights Reserved.
           </span>
+          
           <div className="flex mt-4 sm:justify-center sm:mt-0">
               <Link href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                   <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
