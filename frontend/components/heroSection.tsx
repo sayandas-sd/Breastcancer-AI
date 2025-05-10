@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+
 import Button from "./ui/Button";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
@@ -56,7 +56,7 @@ export default function HeroSection() {
                                 <TransParentButton onClick={()=>{
                                         router.push("/detect")
                                     }}>
-                                        
+
                                         Learn More
                                 </TransParentButton>
                             </div>
