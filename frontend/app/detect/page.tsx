@@ -27,7 +27,7 @@ export default function Home() {
       alert(`Prediction Result: ${result}`);
       setError("");
     } catch (err) {
-      console.error("Prediction fetch error:", err); // Now 'err' is used
+      console.error("Prediction fetch error:", err); 
       const message = "An error occurred while fetching prediction. Please try again.";
       setError(message);
       alert(`Error: ${message}`);
