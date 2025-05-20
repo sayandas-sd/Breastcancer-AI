@@ -35,10 +35,10 @@ export default function Footer() {
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium">
                       <li className="mb-4">
-                          <Link href="https://flowbite.com/" className="hover:underline">BreastCare AI</Link>
+                          <Link href="/" className="hover:underline">BreastCare AI</Link>
                       </li>
                       <li>
-                          <Link href="https://tailwindcss.com/" className="hover:underline">About us</Link>
+                          <Link href="/" className="hover:underline">About us</Link>
                       </li>
                   </ul>
               </div>
@@ -46,7 +46,7 @@ export default function Footer() {
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Research Paper</h2>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium">
                       <li className="mb-4">
-                          <Link href="https://github.com/themesberg/flowbite" className="hover:underline ">Github</Link>
+                          <Link href="https://github.com/sayandas-sd/Breastcancer-AI" className="hover:underline ">Github</Link>
                       </li>
                       <li>
                           <Link href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</Link>
